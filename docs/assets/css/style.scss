@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px;
+    border-color: #555;
+    color: #555;
+    border-radius: 4px;
+    padding: 3px;
+
+    &:hover {
+        color: #008cba;
+        border-color: #008cba;
+        text-decoration: none;
+    }
+    i {
+        margin-left: 2px;
+    }
+}
+
